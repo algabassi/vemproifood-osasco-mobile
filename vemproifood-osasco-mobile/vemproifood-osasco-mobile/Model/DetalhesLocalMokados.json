@@ -1,0 +1,12 @@
+//
+//  DetalhesLocalMokados.json
+//  vemproifood-osasco-mobile
+//
+//  Created by Alexandre Gabassi on 21/11/18.
+//  Copyright © 2018 Alexandre Gabassi. All rights reserved.
+//
+
+{
+    restaurant: "Pizza Hut Limao",
+    dish: "Pizza Supreme"
+}

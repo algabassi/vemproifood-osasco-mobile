@@ -1,0 +1,732 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0536892121A6130D00EEB8D6 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536892021A6130D00EEB8D6 /* AppDelegate.swift */; };
+		0536892321A6130D00EEB8D6 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536892221A6130D00EEB8D6 /* ViewController.swift */; };
+		0536892621A6130D00EEB8D6 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0536892421A6130D00EEB8D6 /* Main.storyboard */; };
+		0536892821A6131400EEB8D6 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 0536892721A6131400EEB8D6 /* Assets.xcassets */; };
+		0536892B21A6131400EEB8D6 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 0536892921A6131400EEB8D6 /* LaunchScreen.storyboard */; };
+		0536893621A6131400EEB8D6 /* vemproifood_osasco_mobileTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536893521A6131400EEB8D6 /* vemproifood_osasco_mobileTests.swift */; };
+		0536894121A6131400EEB8D6 /* vemproifood_osasco_mobileUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536894021A6131400EEB8D6 /* vemproifood_osasco_mobileUITests.swift */; };
+		0536895421A6144300EEB8D6 /* FoodTableViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536895221A6144300EEB8D6 /* FoodTableViewCell.swift */; };
+		0536895521A6144300EEB8D6 /* FoodTableViewCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 0536895321A6144300EEB8D6 /* FoodTableViewCell.xib */; };
+		0536895821A6160000EEB8D6 /* DadosNomePratos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536895721A6160000EEB8D6 /* DadosNomePratos.swift */; };
+		0536895A21A616C500EEB8D6 /* Just.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536895921A616C500EEB8D6 /* Just.swift */; };
+		0536895C21A6176B00EEB8D6 /* Constants.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536895B21A6176B00EEB8D6 /* Constants.swift */; };
+		0536895E21A61B3C00EEB8D6 /* ConsultaServicos.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0536895D21A61B3C00EEB8D6 /* ConsultaServicos.swift */; };
+		0536896021A61B8F00EEB8D6 /* Podfile in Resources */ = {isa = PBXBuildFile; fileRef = 0536895F21A61B8F00EEB8D6 /* Podfile */; };
+		0536896221A61DF200EEB8D6 /* NomePratosMokados.json in Sources */ = {isa = PBXBuildFile; fileRef = 0536896121A61DF200EEB8D6 /* NomePratosMokados.json */; };
+		0536896421A61E5200EEB8D6 /* DetalhesLocalMokados.json in Resources */ = {isa = PBXBuildFile; fileRef = 0536896321A61E5200EEB8D6 /* DetalhesLocalMokados.json */; };
+		3A68D8AD27E621B2CFFAA359 /* Pods_vemproifood_osasco_mobile.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3AD367F904E785FA97EEAB8D /* Pods_vemproifood_osasco_mobile.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0536893221A6131400EEB8D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0536891521A6130D00EEB8D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0536891C21A6130D00EEB8D6;
+			remoteInfo = "vemproifood-osasco-mobile";
+		};
+		0536893D21A6131400EEB8D6 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 0536891521A6130D00EEB8D6 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 0536891C21A6130D00EEB8D6;
+			remoteInfo = "vemproifood-osasco-mobile";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		0536891D21A6130D00EEB8D6 /* vemproifood-osasco-mobile.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "vemproifood-osasco-mobile.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0536892021A6130D00EEB8D6 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		0536892221A6130D00EEB8D6 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		0536892521A6130D00EEB8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		0536892721A6131400EEB8D6 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		0536892A21A6131400EEB8D6 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		0536892C21A6131400EEB8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0536893121A6131400EEB8D6 /* vemproifood-osasco-mobileTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vemproifood-osasco-mobileTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0536893521A6131400EEB8D6 /* vemproifood_osasco_mobileTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vemproifood_osasco_mobileTests.swift; sourceTree = "<group>"; };
+		0536893721A6131400EEB8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0536893C21A6131400EEB8D6 /* vemproifood-osasco-mobileUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "vemproifood-osasco-mobileUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		0536894021A6131400EEB8D6 /* vemproifood_osasco_mobileUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = vemproifood_osasco_mobileUITests.swift; sourceTree = "<group>"; };
+		0536894221A6131400EEB8D6 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		0536895221A6144300EEB8D6 /* FoodTableViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; name = FoodTableViewCell.swift; path = CustomView/FoodTableViewCell.swift; sourceTree = "<group>"; };
+		0536895321A6144300EEB8D6 /* FoodTableViewCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; name = FoodTableViewCell.xib; path = CustomView/FoodTableViewCell.xib; sourceTree = "<group>"; };
+		0536895721A6160000EEB8D6 /* DadosNomePratos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DadosNomePratos.swift; sourceTree = "<group>"; };
+		0536895921A616C500EEB8D6 /* Just.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Just.swift; sourceTree = "<group>"; };
+		0536895B21A6176B00EEB8D6 /* Constants.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Constants.swift; sourceTree = "<group>"; };
+		0536895D21A61B3C00EEB8D6 /* ConsultaServicos.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ConsultaServicos.swift; sourceTree = "<group>"; };
+		0536895F21A61B8F00EEB8D6 /* Podfile */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text; path = Podfile; sourceTree = SOURCE_ROOT; };
+		0536896121A61DF200EEB8D6 /* NomePratosMokados.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = NomePratosMokados.json; sourceTree = "<group>"; };
+		0536896321A61E5200EEB8D6 /* DetalhesLocalMokados.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = DetalhesLocalMokados.json; sourceTree = "<group>"; };
+		3AD367F904E785FA97EEAB8D /* Pods_vemproifood_osasco_mobile.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_vemproifood_osasco_mobile.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C1A630078AA16F73B96EF321 /* Pods-vemproifood-osasco-mobile.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vemproifood-osasco-mobile.release.xcconfig"; path = "Pods/Target Support Files/Pods-vemproifood-osasco-mobile/Pods-vemproifood-osasco-mobile.release.xcconfig"; sourceTree = "<group>"; };
+		CDDB31FFD54742E50CC570E0 /* Pods-vemproifood-osasco-mobile.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-vemproifood-osasco-mobile.debug.xcconfig"; path = "Pods/Target Support Files/Pods-vemproifood-osasco-mobile/Pods-vemproifood-osasco-mobile.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		0536891A21A6130D00EEB8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3A68D8AD27E621B2CFFAA359 /* Pods_vemproifood_osasco_mobile.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0536892E21A6131400EEB8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0536893921A6131400EEB8D6 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		0536891421A6130D00EEB8D6 = {
+			isa = PBXGroup;
+			children = (
+				0536891F21A6130D00EEB8D6 /* vemproifood-osasco-mobile */,
+				0536893421A6131400EEB8D6 /* vemproifood-osasco-mobileTests */,
+				0536893F21A6131400EEB8D6 /* vemproifood-osasco-mobileUITests */,
+				0536891E21A6130D00EEB8D6 /* Products */,
+				8586267D9743158AE970A78C /* Pods */,
+				116FDDC76C9BEB779B21F051 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		0536891E21A6130D00EEB8D6 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				0536891D21A6130D00EEB8D6 /* vemproifood-osasco-mobile.app */,
+				0536893121A6131400EEB8D6 /* vemproifood-osasco-mobileTests.xctest */,
+				0536893C21A6131400EEB8D6 /* vemproifood-osasco-mobileUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		0536891F21A6130D00EEB8D6 /* vemproifood-osasco-mobile */ = {
+			isa = PBXGroup;
+			children = (
+				0536895F21A61B8F00EEB8D6 /* Podfile */,
+				0536895621A6144A00EEB8D6 /* CustomViews */,
+				0536895221A6144300EEB8D6 /* FoodTableViewCell.swift */,
+				0536895321A6144300EEB8D6 /* FoodTableViewCell.xib */,
+				0536895121A613F600EEB8D6 /* Resources */,
+				0536895021A613E200EEB8D6 /* Controller */,
+				0536894F21A613DA00EEB8D6 /* View */,
+				0536894E21A613D200EEB8D6 /* Model */,
+				0536892021A6130D00EEB8D6 /* AppDelegate.swift */,
+				0536892C21A6131400EEB8D6 /* Info.plist */,
+			);
+			path = "vemproifood-osasco-mobile";
+			sourceTree = "<group>";
+		};
+		0536893421A6131400EEB8D6 /* vemproifood-osasco-mobileTests */ = {
+			isa = PBXGroup;
+			children = (
+				0536893521A6131400EEB8D6 /* vemproifood_osasco_mobileTests.swift */,
+				0536893721A6131400EEB8D6 /* Info.plist */,
+			);
+			path = "vemproifood-osasco-mobileTests";
+			sourceTree = "<group>";
+		};
+		0536893F21A6131400EEB8D6 /* vemproifood-osasco-mobileUITests */ = {
+			isa = PBXGroup;
+			children = (
+				0536894021A6131400EEB8D6 /* vemproifood_osasco_mobileUITests.swift */,
+				0536894221A6131400EEB8D6 /* Info.plist */,
+			);
+			path = "vemproifood-osasco-mobileUITests";
+			sourceTree = "<group>";
+		};
+		0536894E21A613D200EEB8D6 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+				0536895921A616C500EEB8D6 /* Just.swift */,
+				0536895721A6160000EEB8D6 /* DadosNomePratos.swift */,
+				0536896121A61DF200EEB8D6 /* NomePratosMokados.json */,
+				0536896321A61E5200EEB8D6 /* DetalhesLocalMokados.json */,
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		0536894F21A613DA00EEB8D6 /* View */ = {
+			isa = PBXGroup;
+			children = (
+				0536892421A6130D00EEB8D6 /* Main.storyboard */,
+				0536892921A6131400EEB8D6 /* LaunchScreen.storyboard */,
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
+		0536895021A613E200EEB8D6 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+				0536892221A6130D00EEB8D6 /* ViewController.swift */,
+				0536895D21A61B3C00EEB8D6 /* ConsultaServicos.swift */,
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		0536895121A613F600EEB8D6 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				0536892721A6131400EEB8D6 /* Assets.xcassets */,
+				0536895B21A6176B00EEB8D6 /* Constants.swift */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		0536895621A6144A00EEB8D6 /* CustomViews */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			name = CustomViews;
+			sourceTree = "<group>";
+		};
+		116FDDC76C9BEB779B21F051 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				3AD367F904E785FA97EEAB8D /* Pods_vemproifood_osasco_mobile.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		8586267D9743158AE970A78C /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				CDDB31FFD54742E50CC570E0 /* Pods-vemproifood-osasco-mobile.debug.xcconfig */,
+				C1A630078AA16F73B96EF321 /* Pods-vemproifood-osasco-mobile.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		0536891C21A6130D00EEB8D6 /* vemproifood-osasco-mobile */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0536894521A6131400EEB8D6 /* Build configuration list for PBXNativeTarget "vemproifood-osasco-mobile" */;
+			buildPhases = (
+				C71B60CD9F5DBE0A4EB77AA1 /* [CP] Check Pods Manifest.lock */,
+				0536891921A6130D00EEB8D6 /* Sources */,
+				0536891A21A6130D00EEB8D6 /* Frameworks */,
+				0536891B21A6130D00EEB8D6 /* Resources */,
+				1CAD9939D0C40C91B8AD47FD /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "vemproifood-osasco-mobile";
+			productName = "vemproifood-osasco-mobile";
+			productReference = 0536891D21A6130D00EEB8D6 /* vemproifood-osasco-mobile.app */;
+			productType = "com.apple.product-type.application";
+		};
+		0536893021A6131400EEB8D6 /* vemproifood-osasco-mobileTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0536894821A6131400EEB8D6 /* Build configuration list for PBXNativeTarget "vemproifood-osasco-mobileTests" */;
+			buildPhases = (
+				0536892D21A6131400EEB8D6 /* Sources */,
+				0536892E21A6131400EEB8D6 /* Frameworks */,
+				0536892F21A6131400EEB8D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0536893321A6131400EEB8D6 /* PBXTargetDependency */,
+			);
+			name = "vemproifood-osasco-mobileTests";
+			productName = "vemproifood-osasco-mobileTests";
+			productReference = 0536893121A6131400EEB8D6 /* vemproifood-osasco-mobileTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		0536893B21A6131400EEB8D6 /* vemproifood-osasco-mobileUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 0536894B21A6131400EEB8D6 /* Build configuration list for PBXNativeTarget "vemproifood-osasco-mobileUITests" */;
+			buildPhases = (
+				0536893821A6131400EEB8D6 /* Sources */,
+				0536893921A6131400EEB8D6 /* Frameworks */,
+				0536893A21A6131400EEB8D6 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				0536893E21A6131400EEB8D6 /* PBXTargetDependency */,
+			);
+			name = "vemproifood-osasco-mobileUITests";
+			productName = "vemproifood-osasco-mobileUITests";
+			productReference = 0536893C21A6131400EEB8D6 /* vemproifood-osasco-mobileUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		0536891521A6130D00EEB8D6 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0940;
+				LastUpgradeCheck = 0940;
+				ORGANIZATIONNAME = "Alexandre Gabassi";
+				TargetAttributes = {
+					0536891C21A6130D00EEB8D6 = {
+						CreatedOnToolsVersion = 9.4.1;
+					};
+					0536893021A6131400EEB8D6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0536891C21A6130D00EEB8D6;
+					};
+					0536893B21A6131400EEB8D6 = {
+						CreatedOnToolsVersion = 9.4.1;
+						TestTargetID = 0536891C21A6130D00EEB8D6;
+					};
+				};
+			};
+			buildConfigurationList = 0536891821A6130D00EEB8D6 /* Build configuration list for PBXProject "vemproifood-osasco-mobile" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 0536891421A6130D00EEB8D6;
+			productRefGroup = 0536891E21A6130D00EEB8D6 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				0536891C21A6130D00EEB8D6 /* vemproifood-osasco-mobile */,
+				0536893021A6131400EEB8D6 /* vemproifood-osasco-mobileTests */,
+				0536893B21A6131400EEB8D6 /* vemproifood-osasco-mobileUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		0536891B21A6130D00EEB8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0536896021A61B8F00EEB8D6 /* Podfile in Resources */,
+				0536892B21A6131400EEB8D6 /* LaunchScreen.storyboard in Resources */,
+				0536896421A61E5200EEB8D6 /* DetalhesLocalMokados.json in Resources */,
+				0536895521A6144300EEB8D6 /* FoodTableViewCell.xib in Resources */,
+				0536892821A6131400EEB8D6 /* Assets.xcassets in Resources */,
+				0536892621A6130D00EEB8D6 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0536892F21A6131400EEB8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0536893A21A6131400EEB8D6 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		1CAD9939D0C40C91B8AD47FD /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-vemproifood-osasco-mobile/Pods-vemproifood-osasco-mobile-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SwiftyJSON/SwiftyJSON.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SwiftyJSON.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-vemproifood-osasco-mobile/Pods-vemproifood-osasco-mobile-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C71B60CD9F5DBE0A4EB77AA1 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-vemproifood-osasco-mobile-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0536891921A6130D00EEB8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0536896221A61DF200EEB8D6 /* NomePratosMokados.json in Sources */,
+				0536895821A6160000EEB8D6 /* DadosNomePratos.swift in Sources */,
+				0536892321A6130D00EEB8D6 /* ViewController.swift in Sources */,
+				0536892121A6130D00EEB8D6 /* AppDelegate.swift in Sources */,
+				0536895E21A61B3C00EEB8D6 /* ConsultaServicos.swift in Sources */,
+				0536895A21A616C500EEB8D6 /* Just.swift in Sources */,
+				0536895421A6144300EEB8D6 /* FoodTableViewCell.swift in Sources */,
+				0536895C21A6176B00EEB8D6 /* Constants.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0536892D21A6131400EEB8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0536893621A6131400EEB8D6 /* vemproifood_osasco_mobileTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		0536893821A6131400EEB8D6 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				0536894121A6131400EEB8D6 /* vemproifood_osasco_mobileUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		0536893321A6131400EEB8D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0536891C21A6130D00EEB8D6 /* vemproifood-osasco-mobile */;
+			targetProxy = 0536893221A6131400EEB8D6 /* PBXContainerItemProxy */;
+		};
+		0536893E21A6131400EEB8D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = 0536891C21A6130D00EEB8D6 /* vemproifood-osasco-mobile */;
+			targetProxy = 0536893D21A6131400EEB8D6 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		0536892421A6130D00EEB8D6 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0536892521A6130D00EEB8D6 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		0536892921A6131400EEB8D6 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				0536892A21A6131400EEB8D6 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		0536894321A6131400EEB8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		0536894421A6131400EEB8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0536894621A6131400EEB8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = CDDB31FFD54742E50CC570E0 /* Pods-vemproifood-osasco-mobile.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZXAQDJ7EF;
+				INFOPLIST_FILE = "vemproifood-osasco-mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabassi.vemproifood-osasco-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		0536894721A6131400EEB8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C1A630078AA16F73B96EF321 /* Pods-vemproifood-osasco-mobile.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZXAQDJ7EF;
+				INFOPLIST_FILE = "vemproifood-osasco-mobile/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabassi.vemproifood-osasco-mobile";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		0536894921A6131400EEB8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZXAQDJ7EF;
+				INFOPLIST_FILE = "vemproifood-osasco-mobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabassi.vemproifood-osasco-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vemproifood-osasco-mobile.app/vemproifood-osasco-mobile";
+			};
+			name = Debug;
+		};
+		0536894A21A6131400EEB8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZXAQDJ7EF;
+				INFOPLIST_FILE = "vemproifood-osasco-mobileTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabassi.vemproifood-osasco-mobileTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/vemproifood-osasco-mobile.app/vemproifood-osasco-mobile";
+			};
+			name = Release;
+		};
+		0536894C21A6131400EEB8D6 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZXAQDJ7EF;
+				INFOPLIST_FILE = "vemproifood-osasco-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabassi.vemproifood-osasco-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vemproifood-osasco-mobile";
+			};
+			name = Debug;
+		};
+		0536894D21A6131400EEB8D6 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = ZZXAQDJ7EF;
+				INFOPLIST_FILE = "vemproifood-osasco-mobileUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.gabassi.vemproifood-osasco-mobileUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "vemproifood-osasco-mobile";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		0536891821A6130D00EEB8D6 /* Build configuration list for PBXProject "vemproifood-osasco-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0536894321A6131400EEB8D6 /* Debug */,
+				0536894421A6131400EEB8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0536894521A6131400EEB8D6 /* Build configuration list for PBXNativeTarget "vemproifood-osasco-mobile" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0536894621A6131400EEB8D6 /* Debug */,
+				0536894721A6131400EEB8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0536894821A6131400EEB8D6 /* Build configuration list for PBXNativeTarget "vemproifood-osasco-mobileTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0536894921A6131400EEB8D6 /* Debug */,
+				0536894A21A6131400EEB8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		0536894B21A6131400EEB8D6 /* Build configuration list for PBXNativeTarget "vemproifood-osasco-mobileUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0536894C21A6131400EEB8D6 /* Debug */,
+				0536894D21A6131400EEB8D6 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 0536891521A6130D00EEB8D6 /* Project object */;
+}
